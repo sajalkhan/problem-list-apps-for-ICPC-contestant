@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fbb500"
+    tools:context="com.newdeveloper.onlinejudgeprogramlist.MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/programmer" />
+
+
+    <Button
+        android:id="@+id/firstButton"
+        android:onClick="easy"
+        android:background="#ff8f00"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="সহজ প্রোগ্রাম লিস্ট"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="medium"
+        android:layout_marginTop="10dp"
+        android:background="#ff6f00"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="মধ্যম প্রোগ্রাম লিস্ট"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="hard"
+        android:layout_marginTop="10dp"
+        android:background="#e65100"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:text="কঠিন প্রোগ্রাম লিস্ট"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
